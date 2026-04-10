@@ -14,3 +14,6 @@ class Solution:
         
         max_len = 1
         max_idx = 0
+        for i in range(n):
+            for j in range(i):
+                if nums[i] % nums[j] == 0 and dp[j] + 1 > dp[
