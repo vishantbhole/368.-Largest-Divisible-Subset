@@ -16,4 +16,6 @@ class Solution:
         max_idx = 0
         for i in range(n):
             for j in range(i):
-                if nums[i] % nums[j] == 0 and dp[j] + 1 > dp[
+                if nums[i] % nums[j] == 0 and dp[j] + 1 > dp[i]:
+                    dp[i] = dp[j] + 1
+                    parent[i] = j
