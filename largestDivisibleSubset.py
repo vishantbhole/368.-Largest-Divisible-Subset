@@ -11,3 +11,6 @@ class Solution:
          
         dp = [1] * n          # dp[i] = size of subset ending at i
         parent = [-1] * n     # to reconstruct the subset
+        
+        max_len = 1
+        max_idx = 0
