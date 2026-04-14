@@ -7,3 +7,6 @@
         
         dp = [1] * n          # dp[i] = size of subset ending at i
         max_len = 1
+
+        for i in range(n):
+            for j in range(i):
