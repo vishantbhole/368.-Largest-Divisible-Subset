@@ -4,3 +4,6 @@
          
         nums.sort()
         n = len(nums)
+        
+        dp = [1] * n          # dp[i] = size of subset ending at i
+        max_len = 1
