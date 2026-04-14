@@ -1,3 +1,6 @@
  def largestDivisibleSubsetLength(self, nums: List[int]) -> int:
         if not nums:
-            return []
+           return []
+         
+        nums.sort()
+        n = len(nums)
