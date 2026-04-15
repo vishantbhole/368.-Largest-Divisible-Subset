@@ -35,3 +35,10 @@ class Solution:
 
 if __name__ == "__main__":
     sol = Solution()
+
+
+    nums = [1,2,3]
+    print("Output is : ", sol.largestDivisibleSubset(nums))
+
+    nums2 = [1,2,4,8]
+    print("Output is : ", sol.largestDivisibleSubset(nums2))
