@@ -32,3 +32,6 @@ class Solution:
             max_idx = parent[max_idx]
 
         return result[::-1]
+
+if __name__ == "__main__":
+    sol = Solution()
