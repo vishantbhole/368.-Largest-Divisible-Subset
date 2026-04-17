@@ -18,3 +18,9 @@
 
 if __name__ == "__main__":
     sol = Solution()
+
+    nums3 = [1,2,3]
+    print("Output is : ", sol.largestDivisibleSubsetLength(nums3))
+
+    nums4 = [1,2,4,8]
+    print("Output is : ", sol.largestDivisibleSubsetLength(nums4))
